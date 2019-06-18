@@ -72,6 +72,9 @@ $ yarn config set registry https://registry.npm.taobao.org
 $ yarn install
 # OR:
 $ yarn install --no-lockfile
+
+# Font Awesome
+$ yarn add @fortawesome/fontawesome-free
 ```
 
 ## npm
@@ -79,6 +82,8 @@ $ yarn install --no-lockfile
 ```
 # Dev Mode:
 $ npm run watch-poll &
+# Kill this job:
+$ kill %1
 
 # 常见问题:
 Additional dependencies must be installed. This will only take a moment.
