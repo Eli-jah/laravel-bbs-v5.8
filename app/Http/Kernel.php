@@ -35,6 +35,8 @@ class Kernel extends HttpKernel
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,
             \App\Http\Middleware\VerifyCsrfToken::class,
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
+            // 注册中间件，注册的时机确保在 StartSession 后面即可：
+            \App\Http\Middleware\EnsureEmailIsVerified::class,      // <<--- 只需添加这一行
         ],
 
         'api' => [
