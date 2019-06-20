@@ -8,7 +8,10 @@ $ vi .gitignore
 
 .idea
 /node_modules
+/public/css
+/public/fonts
 /public/hot
+/public/js
 /public/storage
 /storage/*.key
 /vendor
