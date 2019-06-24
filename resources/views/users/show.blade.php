@@ -38,3 +38,4 @@
         </div>
     </div>
 @stop
+{{-- or @endsection --}}
