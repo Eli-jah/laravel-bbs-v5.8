@@ -6,7 +6,6 @@
 
     <div class="container">
         <div class="col-md-8 offset-md-2">
-
             <div class="card">
                 <div class="card-header">
                     <h4>
@@ -15,7 +14,6 @@
                 </div>
 
                 <div class="card-body">
-
                     <form action="{{ route('users.update', ['user' => $user->id]) }}" method="POST" accept-charset="UTF-8">
                         <input type="hidden" name="_method" value="PUT">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
